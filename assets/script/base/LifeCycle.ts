@@ -5,7 +5,7 @@ const { ccclass, property, executeInEditMode, requireComponent, menu } =
 @ccclass("LifeCycle")
 @requireComponent(MeshRenderer)
 @executeInEditMode(true)
-@menu("/good/next")
+@menu("/base/next")
 export class LifeCycle extends Component {
   private __init = false;
 
